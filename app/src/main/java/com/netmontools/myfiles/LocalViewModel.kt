@@ -17,9 +17,9 @@ class LocalViewModel() : ViewModel() {
         viewModelScope.launch {repository.update(folder)}
     }
 
-//    fun scan(folder: Folder?) {
-//        viewModelScope.launch {repository.scan(folder)}
-//    }
+    fun scan(folder: Folder?) {
+        viewModelScope.launch {repository.scan(folder)}
+    }
     val id: UUID
         get() = folder!!.id
     val name: String

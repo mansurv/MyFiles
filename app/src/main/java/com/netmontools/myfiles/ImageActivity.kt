@@ -11,7 +11,7 @@ import com.davemorrissey.labs.subscaleview.SubsamplingScaleImageView
 class ImageActivity : AppCompatActivity() {
 
    companion object {
-       val EXTRA_IMAGE: String = "arg"
+       const val EXTRA_IMAGE: String = "arg"
    }
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
@@ -25,7 +25,7 @@ class ImageActivity : AppCompatActivity() {
 
         val imageView: SubsamplingScaleImageView = findViewById(R.id.imageView)
 
-        val path = getIntent().getStringExtra("arg");
+        val path = intent.getStringExtra("arg")
 
         imageView.setImage(ImageSource.uri(path!!))
     }

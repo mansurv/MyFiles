@@ -9,7 +9,7 @@ android {
 
     defaultConfig {
         applicationId "com.netmontools.myfiles"
-        minSdk 24
+        minSdk 28
         targetSdk 34
         versionCode 1
         versionName "1.0"
@@ -43,6 +43,7 @@ dependencies {
     implementation(libs.swiperefreshlayout)
     implementation libs.navigation.fragment
     implementation libs.navigation.ui
+    implementation libs.preference.ktx
     implementation(libs.glide)
     implementation(libs.subsampling.scale.image.view.androidx)
     implementation libs.core.ktx

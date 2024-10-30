@@ -11,6 +11,7 @@ navigationFragment = "2.8.2"
 navigationUi = "2.8.2"
 kotlin = "2.0.21"
 coreKtx = "1.13.1"
+preferenceKtx = "1.2.1"
 subsamplingScaleImageViewAndroidx = "3.10.0"
 swiperefreshlayout = "1.1.0"
 activity = "1.9.3"
@@ -26,6 +27,7 @@ constraintlayout = { group = "androidx.constraintlayout", name = "constraintlayo
 navigation-fragment = { group = "androidx.navigation", name = "navigation-fragment", version.ref = "navigationFragment" }
 navigation-ui = { group = "androidx.navigation", name = "navigation-ui", version.ref = "navigationUi" }
 core-ktx = { group = "androidx.core", name = "core-ktx", version.ref = "coreKtx" }
+preference-ktx = { module = "androidx.preference:preference-ktx", version.ref = "preferenceKtx" }
 subsampling-scale-image-view-androidx = { module = "com.davemorrissey.labs:subsampling-scale-image-view-androidx", version.ref = "subsamplingScaleImageViewAndroidx" }
 swiperefreshlayout = { module = "androidx.swiperefreshlayout:swiperefreshlayout", version.ref = "swiperefreshlayout" }
 activity = { group = "androidx.activity", name = "activity", version.ref = "activity" }
